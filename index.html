@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div class="formuario">
+                <p type="Nombre:"><input id="id_nombre" type="text"></p>
+                <p type="Apellido:"><input id="id_apellido" type="text"></p>
+                <div class="centrar">
+                    <button onclick="guardarDatos()">Agregar</button>
+                </div>
+            </div>
+
+            <div class="tabla">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="id_tabla_nombre"></td>
+                            <td id="id_tabla_apellido"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer></footer>
+
+    </div>
+</body>
+
+</html>
